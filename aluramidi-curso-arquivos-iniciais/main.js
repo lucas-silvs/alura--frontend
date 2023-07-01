@@ -1,12 +1,22 @@
-document.querySelector('.tecla_pom').onclick = tocarSomPom;
+function tocarSom( som ) {
 
-document.querySelector('.tecla_clap').onclick = tocarSomClap;
+    let idsom = `#som_${som}`
 
-
-function tocarSomPom() {
-    document.querySelector('#som_tecla_pom').play();
+    document.querySelector(idsom).play()
 }
 
-function tocarSomClap() {
-    document.querySelector('#som_tecla_clap').play();
+
+
+const listaTeclas = document.querySelectorAll(".tecla");
+
+for (i=0; i<listaTeclas.length; i++) {
+    let tecla = listaTeclas[i]
+    let idAudio = tecla.classList[1]
+    tecla.onclick = function () {
+        tocarSom(idAudio)
+    }
+
+    tecla.onKeydown = function () {
+        tecla.classList.add("ativa")
+    }
 }
