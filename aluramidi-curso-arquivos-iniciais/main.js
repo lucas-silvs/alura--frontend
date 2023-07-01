@@ -1,8 +1,15 @@
-function tocarSom( som ) {
+function tocarSom( seletorSom ) {
 
-    let idsom = `#som_${som}`
+    let idsom = `#som_${seletorSom}`
 
-    document.querySelector(idsom).play()
+    const som = document.querySelector(idsom);
+
+    if( som != null && som.localName == "audio") {
+        som.play();
+    }
+    else {
+        alert("Som não encontrado")
+    }
 }
 
 
@@ -13,10 +20,17 @@ for (i=0; i<listaTeclas.length; i++) {
     let tecla = listaTeclas[i]
     let idAudio = tecla.classList[1]
     tecla.onclick = function () {
-        tocarSom(idAudio)
+        tocarSom(idAudio);
     }
 
-    tecla.onKeydown = function () {
-        tecla.classList.add("ativa")
+    tecla.onkeydown = function (evento) {
+        console.log(evento.code);
+        if(evento.code == "Space" || evento.code == "Enter") {
+        tecla.classList.add("ativa");
+        }
+    }
+
+    tecla.onkeyup = function () {
+        tecla.classList.remove("ativa");
     }
 }
