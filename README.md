@@ -31,16 +31,16 @@ Abaixo está um catalogo dos cursos planejados para serem concluidos:
 
 - React:
 
-- [ ] [React: desenvolvendo com JavaScript.](https://cursos.alura.com.br/course/react-desenvolvendo-javascript)
+    - [ ] [React: desenvolvendo com JavaScript.](https://cursos.alura.com.br/course/react-desenvolvendo-javascript)
 
-- [ ] [React: como os componentes funcionam.](https://cursos.alura.com.br/course/react-componentes-funcionam)
+    - [ ] [React: como os componentes funcionam.](https://cursos.alura.com.br/course/react-componentes-funcionam)
 
-- [ ] [React com JavaScript: lidando com arquivos estáticos.](https://cursos.alura.com.br/course/react-javascript-arquivos-estaticos)
+    - [ ] [React com JavaScript: lidando com arquivos estáticos.](https://cursos.alura.com.br/course/react-javascript-arquivos-estaticos)
 
-- [ ] [React: desenvolvendo em React Router com JavaScript.](https://cursos.alura.com.br/course/React-desenvolvendo-react-router-javaScript)
+    - [ ] [React: desenvolvendo em React Router com JavaScript.](https://cursos.alura.com.br/course/React-desenvolvendo-react-router-javaScript)
 
-- [ ] [React: gerenciamento de estados globais com ContextAPI.](https://cursos.alura.com.br/course/react-context-estados-globais-contextapi)
+    - [ ] [React: gerenciamento de estados globais com ContextAPI.](https://cursos.alura.com.br/course/react-context-estados-globais-contextapi)
 
-- [ ] [React: praticando React com Js.](https://cursos.alura.com.br/course/react-praticando-react-js)
+    - [ ] [React: praticando React com Js.](https://cursos.alura.com.br/course/react-praticando-react-js)
 
-- [ ] [React: migrando para TypeScript.](https://cursos.alura.com.br/course/react-migrando-typescript)
+    - [ ] [React: migrando para TypeScript.](https://cursos.alura.com.br/course/react-migrando-typescript)
