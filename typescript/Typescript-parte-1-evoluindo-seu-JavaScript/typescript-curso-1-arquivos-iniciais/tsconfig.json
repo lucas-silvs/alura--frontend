@@ -3,7 +3,6 @@
         "outDir": "./dist/js", // diretório de saida do Typescript
         "target": "ES6", // versão do Javascript,
         "noEmitOnError": true
-
     },
 
     "include": ["app/**/*"] // diretório de entrada do Typescript
