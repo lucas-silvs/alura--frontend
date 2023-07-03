@@ -1,7 +1,7 @@
 import { Negociacao } from "./negociacao.js";
 
 export class Negociacoes {
-    private negociacoes: Array<Negociacao> = [];
+    private negociacoes: Negociacao[] = [];
 
 
 
@@ -11,7 +11,7 @@ export class Negociacoes {
     }
 
     // utilizando ReadonlyArray para evitar acesso de escrita no array retornado.
-    listaNegociacoes(): ReadonlyArray<Negociacao> {
+    listaNegociacoes(): readonly Negociacao[] {
 
         return this.negociacoes; 
     }
