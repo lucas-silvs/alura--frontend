@@ -8,7 +8,7 @@ Abaixo está um catalogo dos cursos planejados para serem concluidos:
 
 - Typescript:
 
-    - [ ] [TypeScript parte 1: evoluindo seu JavaScript.](https://cursos.alura.com.br/course/typescript-evoluindo-javascript)
+    - [x] [TypeScript parte 1: evoluindo seu JavaScript.](https://cursos.alura.com.br/course/typescript-evoluindo-javascript)
 
     - [ ] [TypeScript parte 2: avançando na linguagem.](https://cursos.alura.com.br/course/typescript-avancando-linguagem)
 
