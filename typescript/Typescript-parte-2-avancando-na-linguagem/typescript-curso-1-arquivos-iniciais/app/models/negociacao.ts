@@ -16,7 +16,7 @@ export class Negociacao {
         return data;
     }
 
-    toString() {
+    public toString() {
         return `
             Data: ${this.data}
             Quantidade: ${this.quantidade}

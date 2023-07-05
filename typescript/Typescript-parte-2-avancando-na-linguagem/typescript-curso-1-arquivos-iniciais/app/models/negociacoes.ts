@@ -6,12 +6,12 @@ export class Negociacoes {
 
 
 
-    adicionaNegociacao(negociacao : Negociacao) : void {
+    public adicionaNegociacao(negociacao : Negociacao) : void {
             this.negociacoes.push(negociacao)
     }
 
     // utilizando ReadonlyArray para evitar acesso de escrita no array retornado.
-    listaNegociacoes(): readonly Negociacao[] {
+    public listaNegociacoes(): readonly Negociacao[] {
 
         return this.negociacoes; 
     }
