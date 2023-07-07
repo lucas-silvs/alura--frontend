@@ -6,8 +6,8 @@ import { NegociacoesView } from "../views/negociacoes-view.js";
 export class NegociacaoController {
     constructor() {
         this.negociacoes = new Negociacoes();
-        this.negociacoesView = new NegociacoesView('#negociacoesView');
-        this.mensagensView = new MensagemView('#mensagemView');
+        this.negociacoesView = new NegociacoesView('#negociacoesView', true);
+        this.mensagensView = new MensagemView('#mensagemView', false);
         this.inputData = document.querySelector('#data');
         this.inputQuantidade = document.querySelector('#quantidade');
         this.inputValor = document.querySelector('#valor');
@@ -25,12 +25,8 @@ export class NegociacaoController {
         this.limparFormulario();
     }
     criaNegociacao() {
-        const exp = /-/g;
-        const date = new Date(this.inputData.value.replace(exp, ","));
-        const quantidade = parseInt(this.inputQuantidade.value);
-        const valor = parseFloat(this.inputValor.value);
         this.atualizaView();
-        return new Negociacao(date, quantidade, valor);
+        return Negociacao.criaDe(this.inputData.value, this.inputQuantidade.value, this.inputValor.value);
     }
     limparFormulario() {
         this.inputData.value = '';
