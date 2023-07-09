@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/js", // diretório de saida do Typescript
+        "target": "ES6", // versão do Javascript,
+        "noEmitOnError": true, // não permite compilar para Javascript caso identifique erros, identificando erros em tempo de compilação
+        "noImplicitAny": true, // desabilita definição implicita de variaveis para o tipo "Object"
+        "removeComments": true, // remove comentários ao conveter para JavaScript,
+        "strictNullChecks": true // desabilita o Typescript  a assumitir implicitamente o tipo null para qualquer variavel da aplicação
+    },
+
+    "include": ["app/**/*"] // diretório de entrada do Typescript
+}
