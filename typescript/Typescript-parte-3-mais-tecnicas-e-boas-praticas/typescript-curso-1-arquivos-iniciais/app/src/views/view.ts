@@ -22,7 +22,6 @@ export abstract class View<T> {
     protected abstract template(model: T): string;
 
 
-    @inspect
     @logarTempoDeExecucao(true)
     update(model: T): void {
         
