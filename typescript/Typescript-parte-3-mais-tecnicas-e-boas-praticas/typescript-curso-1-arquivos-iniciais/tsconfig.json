@@ -6,7 +6,8 @@
         "noImplicitAny": true, // desabilita definição implicita de variaveis para o tipo "Object"
         "removeComments": true, // remove comentários ao conveter para JavaScript,
         "strictNullChecks": true,// desabilita o Typescript a assumir implicitamente o tipo null para qualquer variavel da aplicação
-        "experimentalDecorators": true
+        "experimentalDecorators": true,
+        "sourceMap": true
     },
 
     "include": ["app/src/**/*"] // diretório de entrada do Typescript

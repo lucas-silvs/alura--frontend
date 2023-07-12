@@ -12,6 +12,7 @@ else {
 }
 const botaoImporta = document.querySelector('#botao-importa');
 if (botaoImporta) {
+    console.log("Botão encontrado");
     botaoImporta.addEventListener('click', () => {
         controller.importaDados();
     });
@@ -19,3 +20,4 @@ if (botaoImporta) {
 else {
     throw Error('Botão importa não foi encontrado');
 }
+//# sourceMappingURL=app.js.map
