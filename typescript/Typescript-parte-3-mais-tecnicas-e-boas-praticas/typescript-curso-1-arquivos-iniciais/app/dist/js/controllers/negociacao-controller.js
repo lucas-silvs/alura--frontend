@@ -30,6 +30,20 @@ export class NegociacaoController {
         this.atualizaView();
         this.limparFormulario();
     }
+    importaDados() {
+        fetch("http://localhost:8080/dados")
+            .then(res => res.json())
+            .then((dados) => {
+            return dados.map(dado => {
+                return new Negociacao(new Date(), dado.vezes, dado.montante);
+            });
+        })
+            .then(negociacoesDeHoje => {
+            negociacoesDeHoje.forEach(negociacao => {
+                this.negociacoes.adicionaNegociacao(negociacao);
+            });
+        });
+    }
     criaNegociacao() {
         this.atualizaView();
         return Negociacao.criaDe(this.inputData.value, this.inputQuantidade.value, this.inputValor.value);

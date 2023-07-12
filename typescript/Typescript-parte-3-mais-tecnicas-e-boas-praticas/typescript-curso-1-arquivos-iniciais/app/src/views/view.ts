@@ -16,7 +16,7 @@ export abstract class View<T> {
         else{
             throw new Error(`Selector ${selector} não existe no DOM`);
             
-        }
+        } 
     }
 
     protected abstract template(model: T): string;
