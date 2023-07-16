@@ -12,7 +12,7 @@ Abaixo está um catalogo dos cursos planejados para serem concluidos:
 
     - [x] [TypeScript parte 2: avançando na linguagem.](https://cursos.alura.com.br/course/typescript-avancando-linguagem)
 
-    - [ ] [Typescript parte 3: mais técnicas e boas práticas.](https://cursos.alura.com.br/course/typescript-tecnicas-boas-praticas)
+    - [X] [Typescript parte 3: mais técnicas e boas práticas.](https://cursos.alura.com.br/course/typescript-tecnicas-boas-praticas)
 
 - Angular:
     - [ ] [Angular 14: aplique os conceitos e desenvolva seu primeiro CRUD.](https://cursos.alura.com.br/course/angular-explorando-framework)
