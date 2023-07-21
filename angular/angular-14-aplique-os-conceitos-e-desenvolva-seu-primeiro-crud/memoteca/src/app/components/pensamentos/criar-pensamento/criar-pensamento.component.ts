@@ -2,7 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { Pensamento } from '../pensamento-interface';
 import { PensamentoService } from '../pensamento.service';
 import { Router } from '@angular/router';
-import { FormBuilder, FormGroup } from '@angular/forms';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { minusculoValidator } from './validators/minusculoValidators';
 
 @Component({
   selector: 'app-criar-pensamento',
@@ -21,19 +22,40 @@ export class CriarPensamentoComponent implements OnInit {
 
   ngOnInit(): void {
     this.formulario = this.formBuilder.group({
-      conteudo: ["Formulário Reativo"],
-      autoria: ["teste autoria"],
+      conteudo: ["", Validators.compose(
+        [
+          Validators.required,
+          Validators.pattern(/(.|\s)*\S(.|\s)*/)
+        ])],
+      autoria: ["", Validators.compose([
+        Validators.minLength(3),
+        Validators.required,
+        minusculoValidator
+      ])],
       modelo: ["modelo1"]
     });
   }
 
   criarPensamento() {
+    console.log(this.formulario.get('autoria')?.errors)
+    if (this.formulario.valid) {
+    
     this.pensamentoService.cadastrarPensamento(this.formulario.value).subscribe(() => {
+      this.router.navigate(['/']);
     });
+  }
   }
 
   cancelarPensamento(){
     this.router.navigate(['/'])
+  }
+
+  habilitarBotao(){
+    if(this,this.formulario.valid){
+      return 'botao'
+    } else {
+      return 'botao__desabilitado'
+    }
   }
 
 }
