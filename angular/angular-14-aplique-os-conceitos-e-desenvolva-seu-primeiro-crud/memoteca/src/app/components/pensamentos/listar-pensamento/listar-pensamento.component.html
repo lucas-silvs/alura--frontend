@@ -1,5 +1,18 @@
 <section class="container">
     <header class="header d-flex">
+            <div class="buscar-pensamentos">
+
+                <input type="search"
+                class="filtro"
+                placeholder="o que procura?"
+                autofocus
+                [(ngModel)] = "filtro"
+                (keyup)="pesquisarPensamentos()"
+                >
+                <!-- <img src="/assets/imagens/lupa2.png" alt="foto lupa"> -->
+                
+            </div>
+
         <h2 class="ff-inter">Meu mural</h2>
         <button routerLink="/pensamentos/criarPensamento" class="botao">Adicionar Novo pensamento</button>
 
