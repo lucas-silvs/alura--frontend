@@ -32,7 +32,8 @@ export class CriarPensamentoComponent implements OnInit {
         Validators.required,
         minusculoValidator
       ])],
-      modelo: ["modelo1"]
+      modelo: ["modelo1"],
+      favorito: [false]
     });
   }
 

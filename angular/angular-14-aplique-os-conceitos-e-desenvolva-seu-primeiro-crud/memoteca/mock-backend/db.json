@@ -4,66 +4,77 @@
       "id": 1,
       "conteudo": "O naruto pode ser duro as vezes, mas é um bom menino",
       "autoria": "Cabel",
-      "modelo": "modelo2"
+      "modelo": "modelo2",
+      "favorito": true
     },
     {
       "id": 2,
       "conteudo": "Cabeuludinho está sinistro recentemente",
       "autoria": "Cabel2",
-      "modelo": "modelo2"
+      "modelo": "modelo2",
+      "favorito": false
     },
     {
       "id": 3,
       "conteudo": "LMussum Ipsum, cacilds vidis litro abertis. In elementis mé pra quem é amistosis quis leo.Quem manda na minha terra sou euzis!Mé faiz elementum girarzis, nisi eros vermeio.Praesent vel viverra nisi. Mauris aliquet nunc non turpis scelerisque, eget.uquinha2",
       "autoria": "Cabel2",
-      "modelo": "modelo2"
+      "modelo": "modelo2",
+      "favorito": false
     },
     {
       "id": 4,
       "conteudo": "editado Rapa",
       "autoria": "12121212",
-      "modelo": "modelo2"
+      "modelo": "modelo2",
+      "favorito": false
     },
     {
       "conteudo": "12121",
       "autoria": "12121212",
       "modelo": "modelo2",
+      "favorito": false,
       "id": 5
     },
     {
       "conteudo": "Formulário Reativo1212",
       "autoria": "teste autoria1212",
       "modelo": "modelo1",
+      "favorito": false,
       "id": 9
     },
     {
       "conteudo": "   alo",
       "autoria": "alo",
       "modelo": "modelo1",
+      "favorito": false,
       "id": 10
     },
     {
       "conteudo": "wew",
       "autoria": "a",
       "modelo": "modelo1",
+      "favorito": false,
       "id": 11
     },
     {
       "conteudo": "1212",
       "autoria": "1212",
       "modelo": "modelo2",
+      "favorito": false,
       "id": 12
     },
     {
       "conteudo": "teste",
       "autoria": "teste",
       "modelo": "modelo3",
+      "favorito": false,
       "id": 13
     },
     {
       "conteudo": "teste",
       "autoria": "teste",
       "modelo": "modelo1",
+      "favorito": false,
       "id": 14
     }
   ]
