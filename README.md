@@ -17,7 +17,7 @@ Abaixo está um catalogo dos cursos planejados para serem concluidos:
 - Angular:
     - [x] [Angular 14: aplique os conceitos e desenvolva seu primeiro CRUD.](https://cursos.alura.com.br/course/angular-explorando-framework)
 
-    - [ ] [Angular 14: evoluindo a aplicação.](https://cursos.alura.com.br/course/angular-evoluindo-aplicacao)
+    - [x] [Angular 14: evoluindo a aplicação.](https://cursos.alura.com.br/course/angular-evoluindo-aplicacao)
 
     - [ ] [Angular: formulários orientados a templates.](https://cursos.alura.com.br/course/angular-formularios-orientados-templates)
 
