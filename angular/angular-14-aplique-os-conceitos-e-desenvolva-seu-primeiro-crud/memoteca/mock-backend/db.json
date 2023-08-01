@@ -39,7 +39,7 @@
       "conteudo": "Formulário Reativo1212",
       "autoria": "teste autoria1212",
       "modelo": "modelo1",
-      "favorito": false,
+      "favorito": true,
       "id": 9
     },
     {
@@ -60,14 +60,14 @@
       "conteudo": "1212",
       "autoria": "1212",
       "modelo": "modelo2",
-      "favorito": false,
+      "favorito": true,
       "id": 12
     },
     {
       "conteudo": "teste",
       "autoria": "teste",
       "modelo": "modelo3",
-      "favorito": false,
+      "favorito": true,
       "id": 13
     },
     {
